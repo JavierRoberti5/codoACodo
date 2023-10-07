@@ -1,0 +1,52 @@
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+}
+
+.fondo{
+    background-color: black;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.centrado2{
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.boton1{
+    position: absolute;
+    top: 65%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+}
+
+.boton2{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h5{
+    font-size: 2vw;
+}
+p{
+    font-size: 1.1vw;
+}
+
+@media(min-width: 768px){
+    .btn{
+        padding: 15px 105px;
+    }
+}
